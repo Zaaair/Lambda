@@ -6,7 +6,7 @@
 /** BASE **/
 @import "./base/reset";
 @import "./base/base";
-
+@import "./base/typography";
 
 
 
@@ -16,6 +16,8 @@
 @import "./components/header";
 @import "./components/logo";
 @import "./components/navigation";
+@import "./components/button";
+@import "./components/media";
 
 
 
@@ -23,3 +25,5 @@
 
 /** LAYOUT **/
 @import "./layout/banner";
+@import "./layout/food";
+@import "./layout/ingredients";

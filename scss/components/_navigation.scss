@@ -13,15 +13,21 @@
 
 }
 .nav-link{
+    color: $primaryColor;
 
 }
 
 .network {
+    display: flex;
+    justify-content: center;
 
 }
 .network-item {
+    margin: 0 2px;
+    padding: 0 2px;
 
 }
 .network-link{
+    color: #dab33e;
 
 }

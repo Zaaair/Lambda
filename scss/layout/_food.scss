@@ -1,0 +1,25 @@
+.food {
+    background-repeat: no-repeat; /* повторение*/
+    background-position: center center; /*позиция картинки*/
+    background-size: cover; /* заполонение картинки*/
+    min-height: 710px;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/pattern.jpg);
+    padding: 55px 0;
+}
+.food-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.food-description {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+}
+.food-description-link {
+    margin-left: 131px;
+}

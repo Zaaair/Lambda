@@ -1,0 +1,16 @@
+.button {
+    min-width: 228px;
+    min-height: 57px;
+    background-color: $primaryColor;
+    opacity: 0.7;
+    padding: 0 5px;
+    color: #C0C0C0;
+    display: inline-block;
+    line-height: 57px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #C0C0C0;
+    .banner-button & {
+        margin: 0 15px;
+    }
+}
